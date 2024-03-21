@@ -1,0 +1,32 @@
+{
+  "background_color": "#ffffff",
+  "description": "有兽档案馆（wiki.zorua.top）是一项由粉丝策划并建立的，面向《有兽焉》IP的高针对性开放、共享、共建的Fanmade Wiki网站",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "有兽档案馆",
+  "orientation": "portrait-secondary",
+  "scope": "/",
+  "short_name": "有兽档案馆",
+  "start_url": "/wiki/有兽档案馆:首页",
+  "theme_color": "#95f7f6",
+  "categories": [
+    "books",
+    "entertainment",
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/resources/favicon.ico"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "zh",
+  "edge_side_panel": {
+    "preferred_width": 380
+  }
+}
