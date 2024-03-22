@@ -28,11 +28,15 @@ ysarxiv-settings
 oauthkeys
 /.well-known
 /matomo-tracking-code.js
+
 # site auth
 /baidu_verify_*
 /google*.html
 /BingSiteAuth.xml
 /sogousiteverification.txt
+
+# sitemaps
+/sitemap
 
 # MediaWiki install & usage
 /cache
