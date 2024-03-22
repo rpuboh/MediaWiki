@@ -28,6 +28,8 @@ ysarxiv-settings
 oauthkeys
 /.well-known
 /matomo-tracking-code.js
+# sitemaps
+/sitemap
 
 # site auth
 /baidu_verify_*
