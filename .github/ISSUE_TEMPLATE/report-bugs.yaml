@@ -34,8 +34,8 @@ body:
   - type: textarea
     id: reproducing
     attributes:
-      label: 复现方法
-      description: 你是如何触发这个问题的。How this bug happened
+      label: 复现方法 Reproduction
+      description: 你是如何触发这个问题的 How this bug happened? 
     validations:
       required: true
   - type: textarea
@@ -45,6 +45,14 @@ body:
       description: （选填）漏洞截图 (Optional)Bug Screenshots
     validations:
       required: false
+  - type: input
+    id: usermame
+    attributes:
+      label: 用户名 Username
+      description: 你的档案馆用户名 You username on YouShou Archives.
+      placeholder: e.g. ZoruaFox
+    validations:
+      required: true
   - type: textarea
     id: other
     attributes:
