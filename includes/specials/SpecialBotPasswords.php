@@ -252,7 +252,7 @@ class SpecialBotPasswords extends FormSpecialPage {
 				'maxlength' => BotPassword::APPID_MAXLENGTH,
 				'validation-callback' => static function ( $v ) {
 					$v = is_string($v) ? trim($v) : '';
-					return $v !== '' && strlen($v) <= BotPassword::APPID_MAXLENGTH;
+					return $v !== '' && strlen( $v ) <= BotPassword::APPID_MAXLENGTH;
 				},
 			];
 
