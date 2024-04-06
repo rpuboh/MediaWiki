@@ -1,14 +1,13 @@
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Robots.txt for <youshou.wiki>
-# (c) 2021-2023 Youshou Arxiv Contributors
+# (c) 2023-2024 Youshou Archives Contributors
 # Licensed under CC BY-SA 4.0
 # <https://creativecommons.org/licenses/by-sa/4.0/>
 
 # Crawlers and bots that are not search engines or
 # not specified in robots.txt are subject to our
 # crawling policy.
-# for more details.
 
 # Updated 27 Aug 2023
 
@@ -49,7 +48,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: AdIdxBot
 Disallow: /zh*
@@ -88,7 +87,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: BingPreview
 Disallow: /zh*
@@ -127,7 +126,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Googlebot
 Disallow: /zh*
@@ -166,7 +165,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Googlebot-mobile
 Disallow: /zh*
@@ -205,7 +204,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Googlebot-Image
 Disallow: /zh*
@@ -244,7 +243,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Googlebot-Video
 Disallow: /zh*
@@ -283,7 +282,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: DuckDuckBot
 Disallow: /zh*
@@ -322,7 +321,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Sogou web spider
 Disallow: /zh*
@@ -361,7 +360,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Sogou inst spider
 Disallow: /zh*
@@ -400,7 +399,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Sogou spider
 Disallow: /zh*
@@ -439,7 +438,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Sogou wap spider
 Disallow: /zh*
@@ -478,7 +477,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: 360Spider
 Disallow: /zh*
@@ -517,7 +516,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: 360Spider-Image
 Disallow: /zh*
@@ -556,7 +555,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: 360Spider-Video
 Disallow: /zh*
@@ -595,7 +594,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Baiduspider
 Disallow: /zh*
@@ -634,7 +633,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Baiduspider-image
 Disallow: /zh*
@@ -673,7 +672,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Baiduspider-video
 Disallow: /zh*
@@ -712,7 +711,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Baiduspider-news
 Disallow: /zh*
@@ -751,7 +750,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Yisouspider
 Disallow: /zh*
@@ -790,7 +789,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: ByteSpider
 Disallow: /zh*
@@ -829,7 +828,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Yandex
 Disallow: /zh*
@@ -868,7 +867,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: PetalBot
 Disallow: /zh*
@@ -907,7 +906,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Slurp
 Disallow: /zh*
@@ -946,7 +945,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Yeti
 Disallow: /zh*
@@ -985,7 +984,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://wiki.zorua.top/sitemap/sitemap-index-wiki.zorua.top.xml
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 # DISALLOWED SECTION BELOW
 
