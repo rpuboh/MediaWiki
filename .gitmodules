@@ -4,3 +4,12 @@
 [submodule "errorpages"]
 	path = errorpages
 	url = https://github.com/TopRealm/errorpages
+[submodule "skin/Citizen"]
+	path = skin/Citizen
+	url = https://git.qiuwen.net.cn/Fork/mediawiki-skins-Citizen
+[submodule "skin/Gongbi"]
+	path = skin/Gongbi
+	url = https://git.qiuwen.net.cn/Qiuwen/mediawiki-skins-Gongbi
+[submodule "skin/Vector"]
+	path = skin/Vector
+	url = https://git.qiuwen.net.cn/Mirror/mediawiki-skins-Vector
