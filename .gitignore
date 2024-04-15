@@ -65,7 +65,6 @@ oauthkeys
 /maintenance/.mweval_history
 /maintenance/.mwsql_history
 /maintenance/dev/data
-/LocalSettings.php
 /includes/PlatformSettings.php
 ## Extension:Avatar
 /images/avatars
