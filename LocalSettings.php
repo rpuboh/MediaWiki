@@ -369,6 +369,7 @@ $wgExtensionFunctions[] = function() use ( &$wgGroupPermissions ) {
 wfLoadExtension( 'TemplateWizard' );
 #wfLoadExtension( 'GrowthExperiments' );
 #wfLoadExtension( 'PageViewInfo' );
+wfLoadExtension( 'RNRSHook' );
 
 # Add more configuration options below.
 
