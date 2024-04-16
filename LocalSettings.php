@@ -177,7 +177,7 @@ $wgPingback = false;
 
 # 站点语言代码及变体
 $wgLanguageCode = "zh";
-$wgDefaultLanguageVariant = "zh-hans";
+$wgDefaultLanguageVariant = "zh-cn";
 $wgVariantArticlePath = "/$2/$1";
 # Time zone
 $wgLocaltimezone = "PRC";
