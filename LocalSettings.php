@@ -239,6 +239,8 @@ wfLoadExtension( 'MultimediaViewer' );
 wfLoadExtension( 'Nuke' );
 wfLoadExtension( 'OATHAuth' );
 wfLoadExtension( 'PageImages' );
+$wgPageImagesExpandOpenSearchXml = true;
+
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'PdfHandler' );
 wfLoadExtension( 'Poem' );
