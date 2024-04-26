@@ -511,9 +511,6 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
         Html::rawElement( 'p', [], 
         $skin->msg( 'copyright-info' )->text()// test-desc is an i18n message of the text
         );
-        Html::rawElement( 'p', [], 
-        $skin->msg( 'sitemarks-info' )->text()// test-desc is an i18n message of the text
-        );
     };
 };
 
