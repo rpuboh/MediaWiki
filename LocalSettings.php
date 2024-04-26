@@ -506,6 +506,30 @@ $wgRightsIcon = null;
 // test-desc is an i18n message of the text
 
 $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
+    if ( $key === 'info' ) {
+        $footerlinks['copyright-info'] = Html::rawElement( 'p', [], 
+        $skin->msg( 'copyright-info' )->text()// test-desc is an i18n message of the text
+        );
+    };
+};
+
+$wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
+    if ( $key === 'info' ) {
+        $footerlinks['sitemarks-info'] = Html::rawElement( 'p', [], 
+        $skin->msg( 'sitemarks-info' )->text()// test-desc is an i18n message of the text
+        );
+    };
+};
+
+$wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
+    if ( $key === 'info' ) {
+        $footerlinks['disclaimer-info'] = Html::rawElement( 'p', [], 
+        $skin->msg( 'disclaimer-info' )->text()// test-desc is an i18n message of the text
+        );
+    };
+};
+
+$wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
     if ( $key === 'places' ) {
         $footerlinks['TOS'] = Html::element( 'a',
             [
