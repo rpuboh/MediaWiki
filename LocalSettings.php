@@ -286,7 +286,7 @@ $wgCirrusSearchMoreLikeThisAllowedFields = [
         'headings',
         'all'
     ];
-    
+
 wfLoadExtension( 'AdvancedSearch' );
 ##$wgAdvancedSearchHighlighting = true;
 
@@ -437,7 +437,7 @@ $wgEchoEmailFooterAddress = '有兽档案馆，开放的有兽焉wiki';
 
 // 贡献分数
 // Exclude Bots from the reporting - Can be omitted.
-$wgContribScoreIgnoreBots = true; 
+$wgContribScoreIgnoreBots = true;
 // Exclude Blocked Users from the reporting - Can be omitted.
 $wgContribScoreIgnoreBlockedUsers = true;
 // Exclude specific usernames from the reporting - Can be omitted.
@@ -507,8 +507,8 @@ $wgRightsIcon = null;
 
 $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
     if ( $key === 'info' ) {
-        $footerlinks['extra-info'] = 
-        Html::rawElement( 'p', [], 
+        $footerlinks['extra-info'] =
+        Html::rawElement( 'p', [],
         $skin->msg( 'copyright-info' )->text()// test-desc is an i18n message of the text
         );
     };
@@ -516,7 +516,7 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
 
 $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$footerlinks ) {
     if ( $key === 'info' ) {
-        $footerlinks['disclaimer-info'] = Html::rawElement( 'p', [], 
+        $footerlinks['disclaimer-info'] = Html::rawElement( 'p', [],
         $skin->msg( 'disclaimer-info' )->text()// test-desc is an i18n message of the text
         );
     };
