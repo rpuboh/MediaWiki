@@ -397,8 +397,7 @@ $smwgMaintenanceLanguage = 'zh';
 ## 旧版imagetag配置
 $wgAllowImageTag = true;
 
-// VisualEditor、Citoid、Eventloggin、解析器函数等设置
-
+## VisualEditor、Citoid、Eventloggin、解析器函数等设置
 $wgWikiEditorRealtimePreview = true;
 $wgEventLoggingBaseUri = '/beacon/event';
 #$wgEventLoggingServiceUri = '/beacon/intake-analytics';
@@ -412,7 +411,9 @@ $wgAllowUserCss = true;
 $wgDiscussionToolsEnable = true;
 $wgPFEnableStringFunctions = true;
 
-## Citoid
+## 空编辑摘要提醒
+$wgDefaultUserOptions['forceeditsummary'] = 1;
+
 $wgUploadNavigationUrl = '/wiki/Special:UploadWizard';
 $wgWikiLoveGlobal = true;
 $wgCheckUserEnableSpecialInvestigate = true;
