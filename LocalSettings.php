@@ -489,7 +489,27 @@ require_once "$IP/ysarxiv-settings/NameSpaces.php";
 $wgContentNamespaces = [ 0, 300, ];
 $wgNamespacesToBeSearchedDefault[NS_FANMADE] = true;
 
-//页底测试，不抱期望
+//页底
+$wgFooterIcons = [
+    "copyright" => [
+        "mmyicon" => [
+			"src" => "/resources/assets/cc-by-sa-button.png",
+			"url" => "https://creativecommons.org/licenses/by-sa/4.0/",
+			"alt" => "知识共享署名-相同方式共享 4.0",
+			"height" => "31",
+			"width" => "88",
+	],
+	"semanticmediawiki" => [
+            'src' => "$wgResourceBasePath/resources/assets/SemanticMediaWiki.png",
+            'url' => 'https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki',
+            'alt' => 'Powered by Semantic MediaWiki',
+            "height" => "31",
+            "width" => "88",
+	]
+    ],
+];
+
+
 $wgFooterIcons['copyright']['myicon'] = [
 	"src" => "/resources/assets/cc-by-sa-button.png",
     // you may also use a direct path to the source, e.g. "http://example.com/my/custom/path/to/MyCustomLogo.png"
