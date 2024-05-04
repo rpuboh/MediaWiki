@@ -509,15 +509,6 @@ $wgFooterIcons = [
 			"height" => "31",
 			"width" => "88",
 		],
-	],
-    "poweredby" => [
-		"semanticmediawiki" => [
-            'src' => "$wgResourceBasePath/resources/assets/SemanticMediaWiki.png",
-            'url' => 'https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki',
-            'alt' => 'Powered by Semantic MediaWiki',
-            "height" => "31",
-            "width" => "88",
-		]
 	]
 ];
 
