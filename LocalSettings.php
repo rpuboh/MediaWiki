@@ -37,6 +37,16 @@ $wgServer = "https://youshou.wiki";
 ## SEO规范网址
 $wgEnableCanonicalServerLink = true;
 
+## 限制sitemap生成范围
+$wgSitemapNamespaces = [
+    0,
+    4,  // Project
+    6,  // File
+    12, // Help
+    14, // Category
+    300 // Fanmade
+];
+
 ## iOS“添加到主页”指定图标
 $wgAppleTouchIcon = "/images/thumb/0/0c/Touch-icon.png/150px-Touch-icon.png";
 
