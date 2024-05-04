@@ -509,18 +509,6 @@ $wgFooterIcons = [
     ],
 ];
 
-
-$wgFooterIcons['copyright']['myicon'] = [
-	"src" => "/resources/assets/cc-by-sa-button.png",
-    // you may also use a direct path to the source, e.g. "http://example.com/my/custom/path/to/MyCustomLogo.png"
-	"url" => "https://creativecommons.org/licenses/by-sa/4.0/",
-	"alt" => "知识共享署名-相同方式共享 4.0",
-	// For HiDPI support, you can specify paths to larger versions of the icon.
-	// If you have a non-default sized icon you can specify the size yourself.
-	"height" => "31",
-	"width" => "88",
-];
-
 $wgRightsIcon = null;
 
 // Add a link to this page (https://www.mediawiki.org/wiki/?curid=6031)
