@@ -498,19 +498,20 @@ $wgFooterIcons = [
 			"alt" => "知识共享署名-相同方式共享 4.0",
 			"height" => "31",
 			"width" => "88",
+		],
 	],
-	"semanticmediawiki" => [
+    "poweredby" => [
+		"semanticmediawiki" => [
             'src' => "$wgResourceBasePath/resources/assets/SemanticMediaWiki.png",
             'url' => 'https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki',
             'alt' => 'Powered by Semantic MediaWiki',
             "height" => "31",
             "width" => "88",
+		]
 	]
-    ],
 ];
 
 $wgRightsIcon = null;
-$wgFooterIcons['poweredby']['semanticmediawiki'] = null;
 
 // Add a link to this page (https://www.mediawiki.org/wiki/?curid=6031)
 // test-desc is an i18n message of the text
