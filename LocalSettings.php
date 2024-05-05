@@ -369,6 +369,7 @@ wfLoadExtension( 'FileImporter' );
 wfLoadExtension( 'MultiBoilerplate' );
 wfLoadExtension( 'NewUserMessage' );
 wfLoadExtension( 'CreateUserPage' );
+wfLoadExtension( 'PageViewInfo' );
 $wgCreateUserPage_AutoCreateUser = 'New user page';
 $wgCreateUserPage_PageContent ='{{用户页}}';
 
