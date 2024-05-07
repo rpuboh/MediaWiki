@@ -135,40 +135,7 @@ $wgEnableUploads = true;
 $wgUseImageResize = true;
 $wgUseImageMagick = true;
 #$wgImageMagickConvertCommand = '/usr/local/ImageMagick-7.1.0/bin/convert';
-$wgUploadThumbnailRenderMap = [
-    24,
-    64,
-    120,
-    180,
-    250,
-    320,
-    640,
-    800,
-    1024,
-];
-$wgThumbLimits = [
-    24,
-    64,
-    120,
-    180,
-    250,
-    320,
-    640,
-    800,
-    1024,
-];
-$wgImageLimits = [
-    [ 180, 150 ],
-    [ 250, 200 ],
-	[ 320, 240 ],
-	[ 640, 480 ],
-	[ 800, 600 ],
-	[ 1024, 768 ],
-	[ 1280, 1024 ],
-	[ 2560, 2048 ],
-];
 $wgDefaultUserOptions['imagesize'] = 2;
-$wgGenerateThumbnailOnParse = true;
 $wgResponsiveImages = true;
 $wgNativeImageLazyLoading = true;
 $wgFileExtensions[] = 'svg';
@@ -646,6 +613,7 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
 # 以下皮肤将自动启用（为什么移到这里：SandboxLink和BetaFeatures需要提前加载）:
 wfLoadSkins( [ 'Gongbi', 'Citizen', 'Vector' ] );
 $wgDefaultSkin = "Citizen";
+$wgCitizenSearchDescriptionSource = "textextracts";
 
 // debug only
 $wgReadOnly = false ;
