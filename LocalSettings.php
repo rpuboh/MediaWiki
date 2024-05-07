@@ -613,6 +613,7 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
 # 以下皮肤将自动启用（为什么移到这里：SandboxLink和BetaFeatures需要提前加载）:
 wfLoadSkins( [ 'Gongbi', 'Citizen', 'Vector' ] );
 $wgDefaultSkin = "Citizen";
+$wgCitizenSearchDescriptionSource = "textextracts";
 
 // debug only
 $wgReadOnly = false ;
