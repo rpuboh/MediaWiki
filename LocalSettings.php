@@ -240,6 +240,7 @@ $wgVisualEditorAvailableNamespaces = [
     'Draft' => true,
     'Fanmade' => true,
     'Talk' => true,
+    'Category' => false,
 ];
 $wgVisualEditorDisableForAnons = true;
 $wgVisualEditorSerializationCacheTimeout = 30;
