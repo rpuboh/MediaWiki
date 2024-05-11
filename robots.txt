@@ -9,14 +9,13 @@
 # not specified in robots.txt are subject to our
 # crawling policy.
 
-# Updated 16 Apr 2024
+# Updated 12 May 2024
 
 User-agent: Bingbot
 Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -55,7 +54,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -94,7 +92,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -133,7 +130,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -172,7 +168,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -211,7 +206,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -250,7 +244,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -289,7 +282,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -328,7 +320,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -367,7 +358,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -406,7 +396,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -445,7 +434,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -484,7 +472,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -523,7 +510,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -562,7 +548,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -601,7 +586,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -640,7 +624,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -679,7 +662,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -718,7 +700,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -757,7 +738,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -796,7 +776,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -835,7 +814,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -874,7 +852,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -913,7 +890,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
@@ -952,7 +928,6 @@ Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
 Disallow: /api.php
-Disallow: /load.php
 Disallow: /*User:
 Disallow: /*MediaWiki:
 Disallow: /*Talk:
