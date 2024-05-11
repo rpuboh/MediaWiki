@@ -468,16 +468,14 @@ $wgContentNamespaces = [ 0, 300, ];
 $wgNamespacesToBeSearchedDefault[NS_FANMADE] = true;
 
 //页底
-$wgFooterIcons = [
-    "copyright" => [
-        "myicon" => [
-			"src" => "/resources/assets/cc-by-sa-button.png",
-			"url" => "https://creativecommons.org/licenses/by-sa/4.0/",
-			"alt" => "知识共享署名-相同方式共享 4.0",
-			"height" => "31",
-			"width" => "88",
-		],
-	]
+$wgFooterIcons["copyright"] = [
+	"myicon" => [
+		"src" => "/resources/assets/cc-by-sa-button.png",
+		"url" => "https://creativecommons.org/licenses/by-sa/4.0/",
+		"alt" => "知识共享署名-相同方式共享 4.0",
+		"height" => "31",
+		"width" => "88",
+	],
 ];
 
 $wgRightsIcon = null;
