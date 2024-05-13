@@ -104,7 +104,7 @@ $wgSharedTables[] = "actor";
 
 ## 缓存设置
 # 缓存类型
-$wgMainCacheType = CACHE_ACCEL;
+$wgMainCacheType = CACHE_MEMCACHED;
 $wgParserCacheType = CACHE_MEMCACHED; // optional
 $wgMessageCacheType = CACHE_MEMCACHED; // optional
 $wgSessionCacheType = CACHE_MEMCACHED;
