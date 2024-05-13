@@ -116,6 +116,7 @@ $wgEnableSidebarCache = true;
 $wgUseLocalMessageCache = true;
 $wgSidebarCacheExpiry = 60480;
 $wgExtensionInfoMTime = filemtime( "$IP/LocalSettings.php" );
+$wgLocalisationCacheConf['store'] = 'array';
 # 解析器函数缓存
 $wgParserCacheExpireTime = 86400 * 30;
 # beta: ResorceLoader缓存控制
