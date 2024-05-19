@@ -403,7 +403,7 @@ $wgTwoColConflictUseInline = false;
 //$wgAllowSiteCSSOnRestrictedPages = true;
 
 // 工作队列
-$wgJobRunRate = 0.1;
+$wgJobRunRate = 0.2;
 $wgRunJobsAsync = true;
 // 拼音分类
 $wgCategoryCollation = 'pinyin-noprefix';
