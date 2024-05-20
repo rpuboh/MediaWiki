@@ -391,7 +391,7 @@ $wgDiscussionToolsEnable = true;
 $wgPFEnableStringFunctions = true;
 
 ## 空编辑摘要提醒
-$wgDefaultUserOptions['forceeditsummary'] = 1;
+#$wgDefaultUserOptions['forceeditsummary'] = 1;
 
 $wgUploadNavigationUrl = '/wiki/Special:UploadWizard';
 $wgWikiLoveGlobal = true;
