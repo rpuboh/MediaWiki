@@ -111,6 +111,7 @@ $wgSessionCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = [ '127.0.0.1:11211' ];
 # 启用匿名访问的HTML直出
 $wgUseFileCache = true;
+$wgFileCacheDirectory = "$IP/cache/html"
 # i18n缓存、侧边栏缓存、扩展缓存
 $wgEnableSidebarCache = true;
 $wgUseLocalMessageCache = true;
