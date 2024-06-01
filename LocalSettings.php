@@ -309,6 +309,11 @@ wfLoadExtension( 'AJAXPoll' );
 wfLoadExtension( 'LabeledSectionTransclusion' );
 wfLoadExtension( 'cldr' );
 wfLoadExtension( 'OAuth' );
+// Oauth 秘钥
+$wgMWOAuthSecureTokenTransfer = true;
+$wgOAuth2PrivateKey = __DIR__ . "/oauthkeys/private.key";
+$wgOAuth2PublicKey = __DIR__ . "/oauthkeys/public.key";
+
 wfLoadExtension( 'OrphanedTalkPages' );
 wfLoadExtension( 'NewSignupPage' );
 wfLoadExtension( 'AntiSpoof' );
@@ -441,11 +446,6 @@ require_once('extensions/NewUserMessage/includes/NewUserMessage.php');
 //RateLimit频率限制
 $wgRateLimits['edit']['user'] = [ 30, 30 ];
 $wgRateLimits['create']['user'] = [ 30, 30 ];
-
-// Oauth 秘钥
-$wgMWOAuthSecureTokenTransfer = true;
-$wgOAuth2PrivateKey = __DIR__ . "/oauthkeys/private.key";
-$wgOAuth2PublicKey = __DIR__ . "/oauthkeys/public.key";
 
 //最后贡献
 $wgMaxCredits = 3;
