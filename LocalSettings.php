@@ -328,6 +328,8 @@ wfLoadExtension( 'Lockdown' );
 require_once "$IP/ysarxiv-settings/Lockdowns.php";
 
 wfLoadExtension( 'UserMerge' );
+$wgUserMergeProtectedGroups = [ 'sysop', 'steward' ];
+
 wfLoadExtension( 'LoginNotify' );
 wfLoadExtension( 'TabberNeue' );
 wfLoadExtension( 'ContributionScores' );
@@ -402,7 +404,6 @@ $wgPFEnableStringFunctions = true;
 $wgUploadNavigationUrl = '/wiki/Special:UploadWizard';
 $wgWikiLoveGlobal = true;
 $wgCheckUserEnableSpecialInvestigate = true;
-$wgUserMergeProtectedGroups = [ 'sysop', 'steward' ];
 $wgForeignUploadTargets = [];
 $wgTabberNeueEnableAnimation = true;
 $wgTwoColConflictUseInline = false;
