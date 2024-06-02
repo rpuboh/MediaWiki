@@ -118,6 +118,7 @@ $wgUseLocalMessageCache = true;
 $wgSidebarCacheExpiry = 60480;
 $wgExtensionInfoMTime = filemtime( "$IP/LocalSettings.php" );
 $wgLocalisationCacheConf = [
+	'class' => LocalisationCache::class,
 	'store' => 'array',
 	'storeClass' => false,
 	'storeServer' => [],
