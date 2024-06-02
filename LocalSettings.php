@@ -112,12 +112,17 @@ $wgMemCachedServers = [ '127.0.0.1:11211' ];
 # 启用匿名访问的HTML直出
 $wgUseFileCache = true;
 $wgFileCacheDirectory = "$IP/cache/html";
-# i18n缓存、侧边栏缓存、扩展缓存
+# i18n/l10n缓存、侧边栏缓存、扩展缓存
 $wgEnableSidebarCache = true;
 $wgUseLocalMessageCache = true;
 $wgSidebarCacheExpiry = 60480;
 $wgExtensionInfoMTime = filemtime( "$IP/LocalSettings.php" );
-$wgLocalisationCacheConf['store'] = 'array';
+$wgLocalisationCacheConf = [
+	'store' => 'array',
+	'storeDirectory' => '$IP/cache/l10n',
+	'manualRecache' => true,
+];
+
 # 解析器函数缓存
 $wgParserCacheExpireTime = 86400 * 30;
 # beta: ResorceLoader缓存控制
