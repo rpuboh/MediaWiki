@@ -119,6 +119,9 @@ $wgSidebarCacheExpiry = 60480;
 $wgExtensionInfoMTime = filemtime( "$IP/LocalSettings.php" );
 $wgLocalisationCacheConf = [
 	'store' => 'array',
+	'storeClass' => false,
+	'storeServer' => [],
+	'forceRecache' => false,
 	'storeDirectory' => '$IP/cache/l10n',
 	'manualRecache' => true,
 ];
