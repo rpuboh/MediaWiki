@@ -630,7 +630,7 @@ if ( extension_loaded( 'excimer' ) && isset( $_GET['forceprofile'] ) ) {
 		$excimer->stop();
 		$data = $excimer->getLog()->getSpeedscopeData();
 		$data['profiles'][0]['name'] = $_SERVER['REQUEST_URI'];
-		file_put_contents( MW_INSTALL_PATH . '/logs/speedscope-' . ( new DateTime )->format( 'Y-m-d_His_v' ) . '-' . MW_ENTRY_POINT . '.json',
+		file_put_contents( '/www/wwwroot/mwlogs/speedscope-' . ( new DateTime )->format( 'Y-m-d_His_v' ) . '-' . MW_ENTRY_POINT . '.json',
 				json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) );
 	} );
 }
