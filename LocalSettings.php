@@ -123,7 +123,7 @@ $wgLocalisationCacheConf = [
 	'storeClass' => false,
 	'storeServer' => [],
 	'forceRecache' => false,
-	'storeDirectory' => '$IP/cache/l10n',
+	'storeDirectory' => "{$wgScriptPath}/cache/l10n",
 	'manualRecache' => true,
 ];
 
