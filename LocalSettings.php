@@ -390,6 +390,9 @@ $smwgQMaxSize = 9;
 $wgDefaultUserOptions['smw-prefs-general-options-show-entity-issue-panel'] = false;
 $smwgMaintenanceLanguage = 'zh';
 
+// NewUserMessage
+require_once('extensions/NewUserMessage/includes/NewUserMessage.php');
+
 ## 旧版imagetag配置
 $wgAllowImageTag = true;
 
@@ -450,9 +453,6 @@ $wgDefaultUserOptions['watchdefault'] = 0;
 // 语法高亮使用系统包
 $wgPygmentizePath = 'pygmentize';
 
-// NewUserMessage
-require_once('extensions/NewUserMessage/includes/NewUserMessage.php');
-
 //RateLimit频率限制
 $wgRateLimits['edit']['user'] = [ 30, 30 ];
 $wgRateLimits['create']['user'] = [ 30, 30 ];
@@ -468,6 +468,10 @@ $wgSecureLogin = true;
 $wgRestrictionLevels[] = 'officialprotected';
 $wgRestrictionLevels[] = 'templateeditor';
 require_once "$IP/ysarxiv-settings/UserRights.php";
+
+// 密码策略
+$wgPasswordPolicy['policies']['default']['MinimalPasswordLength'] = 8;
+$wgPasswordPolicy['policies']['default']['MaximalPasswordLength'] = 128;
 
 $wgImportSources = [
       'qwbk',
