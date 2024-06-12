@@ -374,6 +374,7 @@ $wgFeaturedFeeds = [
 		'page' => 'Ffeed-YsArchives-Biweekly-page',
 		'title' => 'Ffeed-YsArchives-Biweekly-title',
 		'description' => 'Ffeed-YsArchives-Biweekly-desc',
+		'short-title' => 'Ffeed-Ysarchives-Biweekly-short-title',
 		'entryName' => 'Ffeed-YsArchives-Biweekly-entry',
 	],
 ];
