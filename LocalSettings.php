@@ -369,6 +369,14 @@ wfLoadExtension( 'TemplateWizard' );
 #wfLoadExtension( 'PageViewInfo' );
 wfLoadExtension( 'RNRSHook' );
 wfLoadExtension( 'FeaturedFeeds' );
+$wgFeaturedFeeds = [
+	'YsArchives-Biweekly' => [
+		'page' => 'Ffeed-YsArchives-Biweekly-page',
+		'title' => 'Ffeed-YsArchives-Biweekly-title',
+		'description' => 'Ffeed-YsArchives-Biweekly-desc',
+		'entryName' => 'Ffeed-YsArchives-Biweekly-entry',
+	],
+];
 $wgDisplayFeedsInSidebar = false;
 
 # Add more configuration options below.
