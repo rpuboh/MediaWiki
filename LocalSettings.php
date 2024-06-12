@@ -368,6 +368,8 @@ wfLoadExtension( 'TemplateWizard' );
 #wfLoadExtension( 'GrowthExperiments' );
 #wfLoadExtension( 'PageViewInfo' );
 wfLoadExtension( 'RNRSHook' );
+wfLoadExtension( 'FeaturedFeeds' );
+$wgDisplayFeedsInSidebar = false;
 
 # Add more configuration options below.
 
