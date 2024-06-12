@@ -376,6 +376,10 @@ $wgFeaturedFeeds['YsArchives-Biweekly'] = [
 		'short-title' => 'Ffeed-Ysarchives-Biweekly-short-title',
 		'entryName' => 'Ffeed-YsArchives-Biweekly-entry',
 ];
+$wgFeaturedFeedsDefaults = [
+	'limit' => 5,
+	'inUserLanguage' => false,
+];
 $wgDisplayFeedsInSidebar = false;
 
 # Add more configuration options below.
