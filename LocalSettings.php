@@ -369,12 +369,12 @@ wfLoadExtension( 'TemplateWizard' );
 #wfLoadExtension( 'PageViewInfo' );
 wfLoadExtension( 'RNRSHook' );
 wfLoadExtension( 'FeaturedFeeds' );
-$wgFeaturedFeeds['YsArchives-Biweekly'] = [
-		'page' => 'Ffeed-YsArchives-Biweekly-page',
-		'title' => 'Ffeed-YsArchives-Biweekly-title',
-		'description' => 'Ffeed-YsArchives-Biweekly-desc',
-		'short-title' => 'Ffeed-Ysarchives-Biweekly-short-title',
-		'entryName' => 'Ffeed-YsArchives-Biweekly-entry',
+$wgFeaturedFeeds['ysarchives-biweekly'] = [
+		'page' => 'Ffeed-ysarchives-biweekly-page',
+		'title' => 'Ffeed-ysarchives-biweekly-title',
+		'description' => 'Ffeed-ysarchives-biweekly-desc',
+		'short-title' => 'Ffeed-ysarchives-biweekly-short-title',
+		'entryName' => 'Ffeed-ysarchives-biweekly-entry',
 ];
 $wgFeaturedFeedsDefaults = [
 	'limit' => 5,
