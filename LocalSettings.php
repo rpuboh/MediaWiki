@@ -369,18 +369,16 @@ wfLoadExtension( 'TemplateWizard' );
 #wfLoadExtension( 'PageViewInfo' );
 wfLoadExtension( 'RNRSHook' );
 wfLoadExtension( 'FeaturedFeeds' );
-$wgFeaturedFeeds = [
-	'ysarchives-biweekly' => [
-		'page' => 'Ffeed-ysarchives-biweekly-page',
-		'title' => 'Ffeed-ysarchives-biweekly-title',
-		'description' => 'Ffeed-ysarchives-biweekly-desc',
-		'short-title' => 'Ffeed-ysarchives-biweekly-short-title',
-		'entryName' => 'Ffeed-ysarchives-biweekly-entry',
-	]
+$wgFeaturedFeeds['ysarchives-biweekly'] = [
+	'page' => 'Ffeed-ysarchives-biweekly-page',
+	'title' => 'Ffeed-ysarchives-biweekly-title',
+	'description' => 'Ffeed-ysarchives-biweekly-desc',
+	'short-title' => 'Ffeed-ysarchives-biweekly-short-title',
+	'entryName' => 'Ffeed-ysarchives-biweekly-entry',
 ];
 $wgFeaturedFeedsDefaults = [
-	'limit' => 5,
-	'inUserLanguage' => false,
+'limit' => 5,
+'inUserLanguage' => false,
 ];
 $wgDisplayFeedsInSidebar = false;
 
@@ -422,6 +420,7 @@ $wgPopupsReferencePreviewsBetaFeature = false;
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
+$wgAllowSiteCSSOnRestrictedPages = true;
 $wgDiscussionToolsEnable = true;
 $wgPFEnableStringFunctions = true;
 
