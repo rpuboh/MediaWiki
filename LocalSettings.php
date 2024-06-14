@@ -285,6 +285,8 @@ wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'CodeEditor' );
 wfLoadExtension( 'Linter' );
 wfLoadExtension( 'DiscussionTools' );
+$wgDiscussionToolsEnable = true;
+$wgDiscussionToolsEnablePermalinksBackend = true;
 wfLoadExtension( 'InterwikiExtracts' );
 wfLoadExtension( 'CheckUser' );
 wfLoadExtension( 'SandboxLink' );
@@ -421,7 +423,6 @@ $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEdit
 $wgAllowUserJs = true;
 $wgAllowUserCss = true;
 $wgAllowSiteCSSOnRestrictedPages = true;
-$wgDiscussionToolsEnable = true;
 $wgPFEnableStringFunctions = true;
 
 ## 空编辑摘要提醒
