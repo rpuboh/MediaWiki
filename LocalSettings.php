@@ -284,9 +284,35 @@ wfLoadExtension( 'CodeMirror' );
 wfLoadExtension( 'ParserFunctions' );
 wfLoadExtension( 'CodeEditor' );
 wfLoadExtension( 'Linter' );
+# 为了使linter工作，使Parsoid作为扩展加载，添加接入点
+wfLoadExtension( 'Parsoid', "$IP/vendor/wikimedia/parsoid/extension.json" );
+$wgParsoidSettings = [
+    'useSelser' => true,
+    'linting' => true,
+];
+$wgVisualEditorParsoidAutoConfig = false; #(for Linter, to make work)
+$wgVirtualRestConfig = [
+	'paths' => [],
+	'modules' => [
+		'parsoid' => [
+			'url' => 'https://youshou.wiki/rest.php',
+			'domain' => 'youshou.wiki',
+			'forwardCookies' => true,
+			'restbaseCompat' => false,
+			'timeout' => 30,
+		],
+	],
+	'global' => [
+		'timeout' => 360,
+		'forwardCookies' => false,
+		'HTTPProxy' => null,
+	],
+];
+
 wfLoadExtension( 'DiscussionTools' );
 $wgDiscussionToolsEnable = true;
 $wgDiscussionToolsEnablePermalinksBackend = true;
+
 wfLoadExtension( 'InterwikiExtracts' );
 wfLoadExtension( 'CheckUser' );
 wfLoadExtension( 'SandboxLink' );
