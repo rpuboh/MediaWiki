@@ -335,7 +335,7 @@ wfLoadExtension( 'TwoColConflict' );
 wfLoadExtension( 'EmbedVideo' );
 wfLoadExtension( 'WikiSEO' );
 # SEO配置
-$wgWikiSeoDefaultLanguage = 'zh';
+#$wgWikiSeoDefaultLanguage = 'zh';
 $wgWikiSeoEnableAutoDescription = true;
 
 wfLoadExtension( 'UploadWizard' );
