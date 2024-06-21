@@ -369,9 +369,7 @@ $wgUserMergeProtectedGroups = [ 'sysop', 'steward' ];
 
 wfLoadExtension( 'LoginNotify' );
 wfLoadExtension( 'TabberNeue' );
-$wgTabberNeueUseCodex = true;
 $wgTabberNeueEnableAnimation = true;
-$wgTabberNeueUpdateLocationOnTabChange = false;
 
 wfLoadExtension( 'ContributionScores' );
 wfLoadExtension( 'PinyinSort' );
