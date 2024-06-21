@@ -371,7 +371,7 @@ wfLoadExtension( 'LoginNotify' );
 wfLoadExtension( 'TabberNeue' );
 $wgTabberNeueUseCodex = true;
 $wgTabberNeueEnableAnimation = true;
-$wgTabberNeueUpdateLocationOnTabChange = false
+$wgTabberNeueUpdateLocationOnTabChange = false;
 
 wfLoadExtension( 'ContributionScores' );
 wfLoadExtension( 'PinyinSort' );
