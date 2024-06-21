@@ -369,6 +369,9 @@ $wgUserMergeProtectedGroups = [ 'sysop', 'steward' ];
 
 wfLoadExtension( 'LoginNotify' );
 wfLoadExtension( 'TabberNeue' );
+$wgTabberNeueUseCodex = true;
+$wgTabberNeueEnableAnimation = true;
+
 wfLoadExtension( 'ContributionScores' );
 wfLoadExtension( 'PinyinSort' );
 wfLoadExtension( 'DarkMode' );
@@ -458,7 +461,6 @@ $wgUploadNavigationUrl = '/wiki/Special:UploadWizard';
 $wgWikiLoveGlobal = true;
 $wgCheckUserEnableSpecialInvestigate = true;
 $wgForeignUploadTargets = [];
-$wgTabberNeueEnableAnimation = true;
 $wgTwoColConflictUseInline = false;
 //$wgAllowSiteCSSOnRestrictedPages = true;
 
