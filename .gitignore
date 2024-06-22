@@ -24,8 +24,6 @@ sftp-config.json
 *.vscode/
 
 # Ysarxiv-Settings
-ysarxiv-settings
-oauthkeys
 /.well-known
 /matomo-tracking-code.js
 # sitemaps

@@ -77,7 +77,7 @@ $wgHooks['BeforePageDisplay'][] = function (Outputpage $out, Skin $skin) {
 };
 
 ## 邮件系统
-require_once "$IP/ysarxiv-settings/EmailSmtpPassword.php";
+require_once "/www/wwwroot/mw-utils/YsArchives-Settings/EmailSmtpPassword.php";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # 用户可调整
 $wgAllowHTMLEmail = true;
@@ -90,7 +90,7 @@ $wgUserEmailConfirmationTokenExpiry = 1800;
 $wgEmailConfirmToEdit = true;
 
 ## 数据库设置
-require_once "$IP/ysarxiv-settings/DBPassword.php";
+require_once "/www/wwwroot/mw-utils/YsArchives-Settings/DBPassword.php";
 
 # 数据库前缀设置
 $wgDBprefix = "ysy";
@@ -175,7 +175,7 @@ date_default_timezone_set( $wgLocaltimezone );
 $wgCacheDirectory = "$IP/cache";
 
 ## SecretKeys
-require_once "$IP/ysarxiv-settings/SecretKeys.php";
+require_once "/www/wwwroot/mw-utils/YsArchives-Settings/SecretKeys.php";
 
 ## Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
@@ -245,7 +245,7 @@ $wgSecureLogin = true;
 # 保护级别指定
 $wgRestrictionLevels[] = 'officialprotected';
 $wgRestrictionLevels[] = 'templateeditor';
-require_once "$IP/ysarxiv-settings/UserRights.php";
+require_once "/www/wwwroot/mw-utils/YsArchives-Settings/UserRights.php";
 
 // 密码策略
 $wgPasswordPolicy['policies']['default']['MinimalPasswordLength'] = 8;
@@ -256,7 +256,7 @@ $wgImportSources = [
 ];
 
 // 项目别名配置区
-require_once "$IP/ysarxiv-settings/NameSpaces.php";
+require_once "/www/wwwroot/mw-utils/YsArchives-Settings/NameSpaces.php";
 
 $wgContentNamespaces = [ 0, 300, ];
 $wgNamespacesToBeSearchedDefault[NS_FANMADE] = true;
