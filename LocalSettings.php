@@ -29,7 +29,7 @@ $wgGitRepositoryViewers['https://git.qiuwen.wiki/(.*?)(.git)?'] = 'https://git.q
 $wgGitRepositoryViewers['https://github.com/(.*?)(.git)?'] = 'https://github.com/$1/commit/%H';
 $wgGitRepositoryViewers['https://mirror.ghproxy.com/https://github.com/(.*?)(.git)?'] = 'https://github.com/$1/commit/%H';
 $wgGitRepositoryViewers['https://gitee.com/(.*?)(.git)?'] = 'https://gitee.com/$1/commit/%H';
-$wgGitInfoCacheDirectory = "$IP/cache/gitinfo";
+$wgGitInfoCacheDirectory = "/www/wwwroot/MediaWiki/cache/gitinfo";
 
 ## 域名地址
 $wgServer = "https://youshou.wiki";
