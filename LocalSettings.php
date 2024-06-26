@@ -4,9 +4,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
 
-## 设置MediaWiki的安装路径
-define( 'MW_INSTALL_PATH', '/www/wwwroot/MediaWiki' );
-
 ## 取消内容压缩
 #$wgDisableOutputCompression = true;
 
