@@ -107,7 +107,7 @@ $wgSharedTables[] = "actor";
 $wgMainCacheType = CACHE_ACCEL;
 $wgParserCacheType = CACHE_ACCEL; // optional
 $wgMessageCacheType = CACHE_ACCEL; // optional
-$wgSessionCacheType = CACHE_ACCEL;
+$wgSessionCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = [ '127.0.0.1:11211' ];
 # 启用匿名访问的HTML直出
 $wgUseFileCache = true;
