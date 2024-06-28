@@ -574,11 +574,11 @@ class ParserCache {
 	 * @return CacheTime|ParserOutput|null
 	 */
 	private function restoreFromJson( string $jsonData, string $key, string $expectedClass ) {
-		try {
+//		try {
 			/** @var CacheTime $obj */
 			$obj = $this->jsonCodec->unserialize( $jsonData, $expectedClass );
 			return $obj;
-		} catch ( InvalidArgumentException $e ) {
+/*		} catch ( InvalidArgumentException $e ) {
 			$this->logger->error( "Unable to unserialize JSON", [
 				'name' => $this->name,
 				'cache_key' => $key,
@@ -586,6 +586,7 @@ class ParserCache {
 			] );
 			return null;
 		}
+*/
 	}
 
 	/**

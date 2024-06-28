@@ -419,3 +419,4 @@ if ( extension_loaded( 'excimer' ) && isset( $_GET['forceprofile'] ) ) {
 	*/
 
 $wgDebugLogGroups['pcd'] = 'xxxx'
+$wgDebugLogGroups['exception'] = 'xxxx'
