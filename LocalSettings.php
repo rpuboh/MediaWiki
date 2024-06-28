@@ -105,10 +105,14 @@ $wgSharedTables[] = "actor";
 ## 缓存设置
 # 缓存类型
 $wgMainCacheType = CACHE_MEMCACHED;
-$wgParserCacheType = CACHE_ACCEL; // optional
+$wgParserCacheType = CACHE_MEMCACHED; // optional
 $wgMessageCacheType = CACHE_MEMCACHED; // optional
 $wgSessionCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = [ '127.0.0.1:11211' ];
+$wgMemCachedPersistent = true;
+
+$wgParserCacheExpireTime = 60 * 60 * 24; // 1 week
+
 # 启用匿名访问的HTML直出
 $wgUseFileCache = true;
 $wgFileCacheDirectory = "$IP/cache/html";
@@ -127,8 +131,6 @@ $wgLocalisationCacheConf = [
 	'manualRecache' => true,
 ];
 
-# 解析器函数缓存
-$wgParserCacheExpireTime = 86400 * 30;
 # beta: ResorceLoader缓存控制
 $wgResourceLoaderMaxage = [
 	'versioned' => 30 * 24 * 60 * 60, // 30 days
