@@ -379,9 +379,7 @@ class LegacyLogger extends AbstractLogger {
 	 */
 	protected static function formatAsWfDebugLog( $channel, $message, $context ) {
 		$time = wfTimestamp( TS_DB );
-		$wiki = WikiMap::getCurrentWikiId();
-		$host = wfHostname();
-		$text = "{$time} {$host} {$wiki}: {$message}\n";
+		$text = "{$time}: {$message} ## " . json_encode($context, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '\n';
 		return $text;
 	}
 
