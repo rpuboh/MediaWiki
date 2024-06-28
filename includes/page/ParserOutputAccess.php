@@ -223,6 +223,8 @@ class ParserOutputAccess {
 			$output = null;
 		}
 
+		wfDebugLog('pcd', "isOld: $isOld; useCache: $useCache; classCacheKey: $classCacheKey; output: $output");
+
 		if ( $output && !$isOld ) {
 			$this->localCache[$classCacheKey] = $output;
 		}
