@@ -401,6 +401,7 @@ $wgStylePath = "/www/wwwroot/mw-utils/YsArchives-Skins";
 
 // debug only
 $wgReadOnly = false ;
+#$wgDebugLogGroups['pcd'] = '/www/wwwroot/mwlogs'
 // Use ?forceprofile=1 to generate a trace log, written to /w/logs/speedscope.json
 	/*
 if ( extension_loaded( 'excimer' ) && isset( $_GET['forceprofile'] ) ) {
