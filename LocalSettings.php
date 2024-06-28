@@ -168,7 +168,7 @@ $wgLanguageCode = "zh";
 $wgDefaultLanguageVariant = "zh-cn";
 $wgVariantArticlePath = "/$2/$1";
 # Time zone
-$wgLocaltimezone = "PRC";
+$wgLocaltimezone = "Asia/Shanghai";
 date_default_timezone_set( $wgLocaltimezone );
 
 ## 缓存目录，公共不可读写
