@@ -9,7 +9,7 @@
 # not specified in robots.txt are subject to our
 # crawling policy.
 
-# Updated 12 May 2024
+# Updated 29 June 2024
 
 User-agent: Bingbot
 Disallow: /zh*
@@ -163,83 +163,7 @@ Allow: /favicon.ico
 Allow: /sitemap
 Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
-User-agent: Googlebot-mobile
-Disallow: /zh*
-Disallow: /thumb.php
-Disallow: /index.php
-Disallow: /api.php
-Disallow: /*User:
-Disallow: /*MediaWiki:
-Disallow: /*Talk:
-Disallow: /*talk:
-# 讨论
-Disallow: /*%E8%AE%A8%E8%AE%BA:
-# 討論
-Disallow: /*%E4%B8%BB%E9%A2%98:
-Disallow: /*Special:
-# 特殊
-Disallow: /*%E7%89%B9%E6%AE%8A:
-Disallow: /*action=
-Disallow: /*redlink=
-Disallow: /*oldid=
-Disallow: /*diff=
-Disallow: /*curid=
-Disallow: /*redirect=
-Disallow: /*subcatfrom=
-Disallow: /*subcatuntil=
-Disallow: /*returnto=
-Disallow: /*pagefrom=
-Disallow: /*useskin=
-Disallow: /*uselang=
-Disallow: /*variant=
-Disallow: /*lang=
-Allow: /$
-Allow: /wiki/
-Allow: /resources
-Allow: /load.php
-Allow: /favicon.ico
-Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
-
-User-agent: Googlebot-Image
-Disallow: /zh*
-Disallow: /thumb.php
-Disallow: /index.php
-Disallow: /api.php
-Disallow: /*User:
-Disallow: /*MediaWiki:
-Disallow: /*Talk:
-Disallow: /*talk:
-# 讨论
-Disallow: /*%E8%AE%A8%E8%AE%BA:
-# 討論
-Disallow: /*%E4%B8%BB%E9%A2%98:
-Disallow: /*Special:
-# 特殊
-Disallow: /*%E7%89%B9%E6%AE%8A:
-Disallow: /*action=
-Disallow: /*redlink=
-Disallow: /*oldid=
-Disallow: /*diff=
-Disallow: /*curid=
-Disallow: /*redirect=
-Disallow: /*subcatfrom=
-Disallow: /*subcatuntil=
-Disallow: /*returnto=
-Disallow: /*pagefrom=
-Disallow: /*useskin=
-Disallow: /*uselang=
-Disallow: /*variant=
-Disallow: /*lang=
-Allow: /$
-Allow: /wiki/
-Allow: /resources
-Allow: /load.php
-Allow: /favicon.ico
-Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
-
-User-agent: Googlebot-Video
+User-agent: GoogleOther
 Disallow: /zh*
 Disallow: /thumb.php
 Disallow: /index.php
