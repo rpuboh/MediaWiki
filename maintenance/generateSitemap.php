@@ -400,9 +400,9 @@ class GenerateSitemap extends Maintenance {
 						$length += strlen( $entry );
 						$this->write( $this->file, $entry );
 					}
-				}
+				}*/
 			}
-				*/
+				
 
 			if ( $skippedNoindex > 0 ) {
 				$this->output( "  skipped $skippedNoindex page(s) with __NOINDEX__ switch\n" );
