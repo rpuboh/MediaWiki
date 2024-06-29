@@ -474,12 +474,15 @@ class ParserCache {
 		}
 
 		// Save the parser output
-		$this->cache->set(
+		$ret = $this->cache->set(
 			$parserOutputKey,
 			$parserOutputData,
 			$expire,
 			BagOStuff::WRITE_ALLOW_SEGMENTS
 		);
+		$jsonstr = substr($parserOutputData, 0, 20);
+		$origstr = substr($parserOutput->getRawText(), 0, 20);
+		wfDebugLog('pcd', "$ret; e: $expire; k: $parserOutputKey; d: $jsonstr; o:  $origstr")
 
 		// ...and its pointer to the local cache.
 		$this->metadataProcCache->set( $pageKey, $metadataData, $expire );
