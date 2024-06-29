@@ -120,7 +120,6 @@ $wgFileCacheDirectory = "$IP/cache/html";
 $wgEnableSidebarCache = true;
 $wgUseLocalMessageCache = true;
 $wgSidebarCacheExpiry = 60480;
-$wgExtensionInfoMTime = filemtime( "$IP/LocalSettings.php" );
 $wgLocalisationCacheConf = [
 	'class' => LocalisationCache::class,
 	'store' => 'array',
@@ -203,7 +202,6 @@ $wgCdnServersNoPurge[] = "0.0.0.0/0";
 #$wgCdnServersNoPurge[] = "36.110.205.0/24";
 
 require_once "/www/wwwroot/mw-utils/YsArchives-Extensions/LoadExtensions.php";
-$wgExtensionDirectory = "/www/wwwroot/mw-utils/YsArchives-Extensions";
 
 ## 旧版imagetag配置
 $wgAllowImageTag = true;
@@ -399,7 +397,6 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
 # 启用皮肤.
 # 以下皮肤将自动启用（为什么移到这里：SandboxLink和BetaFeatures需要提前加载）:
 require_once "/www/wwwroot/mw-utils/YsArchives-Skins/LoadSkins.php";
-$wgStylePath = "/www/wwwroot/mw-utils/YsArchives-Skins";
 
 // debug only
 $wgReadOnly = false ;
