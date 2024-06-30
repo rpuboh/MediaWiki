@@ -93,6 +93,7 @@ class JsonCodec implements JsonUnserializer, JsonSerializer {
 		}
 		$json = FormatJson::encode( $value, false, FormatJson::ALL_OK );
 		wfDebugLog('pcd', "JC: $valclass; $json");
+		usleep(2000);
 		if ( !$json ) {
 			// TODO: make it JsonException
 			throw new InvalidArgumentException(
