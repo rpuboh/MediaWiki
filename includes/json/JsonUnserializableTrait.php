@@ -24,6 +24,7 @@ namespace MediaWiki\Json;
 trait JsonUnserializableTrait {
 
 	public function jsonSerialize(): array {
+		wfDebugLog('pcd', "JT::jsonSerialize");
 		return $this->annotateJsonForDeserialization(
 			$this->toJsonArray()
 		);
