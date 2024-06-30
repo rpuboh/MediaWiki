@@ -2488,7 +2488,7 @@ class ParserOutput extends CacheTime implements ContentMetadataCollector {
 		}
 
 		$trunc_data = substr(json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE), 0, 35);
-		wfDebugLog('pcd', $trunc_data);
+		wfDebugLog('pcd', "ParserOutput: $trunc_data");
 
 		return $data;
 	}
