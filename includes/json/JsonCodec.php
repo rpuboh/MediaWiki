@@ -96,6 +96,8 @@ class JsonCodec implements JsonUnserializer, JsonSerializer {
 		if ( $value instanceof JsonSerializable ) {
 			wfDebugLog('pcd', "JC: calling jsonSerialize");
 			$value = $value->jsonSerialize();
+		} elseif ( $value instanceof CacheTime ) {
+			$value = $value->jsonSerialize();
 		}
 		$json = FormatJson::encode( $value, false, FormatJson::ALL_OK );
 		wfDebugLog('pcd', "JC: $valclass; $json");
