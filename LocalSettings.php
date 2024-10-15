@@ -241,9 +241,6 @@ $wgRunJobsAsync = true;
 //用户偏好默认不监视
 $wgDefaultUserOptions['watchdefault'] = 0;
 
-// 语法高亮使用系统包
-$wgPygmentizePath = 'pygmentize';
-
 //RateLimit频率限制
 $wgRateLimits['edit']['user'] = [ 30, 30 ];
 $wgRateLimits['create']['user'] = [ 30, 30 ];
