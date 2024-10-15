@@ -91,3 +91,15 @@ Thumbs.db
 # Docker
 docker-compose.override.yml
 .env
+
+# Ysarxiv-Settings
+/.well-known
+/matomo-tracking-code.js
+# sitemaps
+/sitemap
+
+# site auth
+/baidu_verify_*
+/google*.html
+/BingSiteAuth.xml
+/sogousiteverification.txt
