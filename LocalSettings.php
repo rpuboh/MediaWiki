@@ -148,6 +148,10 @@ $wgMiserMode = true;
 $wgEnableUploads = true;
 $wgUseImageResize = true;
 $wgUseImageMagick = true;
+$wgMaxUploadSize = [
+    '*' => 750 * 1024 * 1024, // 750 MB
+    'url' => 1 * 1024 * 1024 * 1024, // 1 GB
+];
 #$wgImageMagickConvertCommand = '/usr/local/ImageMagick-7.1.0/bin/convert';
 $wgDefaultUserOptions['imagesize'] = 2;
 $wgResponsiveImages = true;
