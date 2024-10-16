@@ -146,6 +146,8 @@ $wgMiserMode = true;
 
 ## 文件上传功能，上传大小由PHP POST值控制
 $wgEnableUploads = true;
+$wgAllowCopyUploads = true;
+$wgCopyUploadsFromSpecialUpload = true;
 $wgUseImageResize = true;
 $wgUseImageMagick = true;
 $wgMaxUploadSize = [
