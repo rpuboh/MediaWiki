@@ -158,7 +158,11 @@ $wgMaxUploadSize = [
 $wgDefaultUserOptions['imagesize'] = 2;
 $wgResponsiveImages = true;
 $wgNativeImageLazyLoading = true;
-$wgFileExtensions[] = 'svg';
+$wgFileExtensions = array_merge(
+    $wgFileExtensions, [
+        'svg', 'pdf', 'mp4'
+    ]
+);
 $wgAllowTitlesInSVG = true;
 $wgSVGConverter = 'rsvg';
 $wgSVGMaxSize = 4096;
