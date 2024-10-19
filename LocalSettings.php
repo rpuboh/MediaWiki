@@ -215,7 +215,6 @@ $wgCdnServersNoPurge[] = "0.0.0.0/0";
 #$wgCdnServersNoPurge[] = "36.110.205.0/24";
 
 // 扩展
-$wgExtensionAssetsPath = "/www/wwwroot/mw-utils/YsArchives-Extensions";
 $wgExtensionDirectory = "/www/wwwroot/mw-utils/YsArchives-Extensions";
 require_once "/www/wwwroot/mw-utils/YsArchives-Extensions/LoadExtensions.php";
 
@@ -415,7 +414,6 @@ $wgHooks['SkinAddFooterLinks'][] = function ( Skin $skin, string $key, array &$f
 
 # 启用皮肤.
 # 以下皮肤将自动启用（为什么移到这里：SandboxLink和BetaFeatures需要提前加载）:
-$wgStylePath = "/www/wwwroot/mw-utils/YsArchives-Skins";
 $wgStyleDirectory = "/www/wwwroot/mw-utils/YsArchives-Skins";
 require_once "/www/wwwroot/mw-utils/YsArchives-Skins/LoadSkins.php";
 
