@@ -47,7 +47,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: AdIdxBot
 Disallow: /zh*
@@ -85,7 +85,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: BingPreview
 Disallow: /zh*
@@ -123,7 +123,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Googlebot
 Disallow: /zh*
@@ -161,7 +161,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: GoogleOther
 Disallow: /zh*
@@ -199,7 +199,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: DuckDuckBot
 Disallow: /zh*
@@ -237,7 +237,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Sogou web spider
 Disallow: /zh*
@@ -275,7 +275,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Sogou inst spider
 Disallow: /zh*
@@ -313,7 +313,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Sogou spider
 Disallow: /zh*
@@ -351,7 +351,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Sogou wap spider
 Disallow: /zh*
@@ -389,7 +389,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: 360Spider
 Disallow: /zh*
@@ -427,7 +427,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: 360Spider-Image
 Disallow: /zh*
@@ -465,7 +465,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: 360Spider-Video
 Disallow: /zh*
@@ -503,7 +503,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Baiduspider
 Disallow: /zh*
@@ -541,7 +541,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Baiduspider-image
 Disallow: /zh*
@@ -579,7 +579,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Baiduspider-video
 Disallow: /zh*
@@ -617,7 +617,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Baiduspider-news
 Disallow: /zh*
@@ -655,7 +655,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Yisouspider
 Disallow: /zh*
@@ -693,7 +693,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: ByteSpider
 Disallow: /zh*
@@ -731,7 +731,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: Yandex
 Disallow: /zh*
@@ -769,7 +769,7 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
+
 
 User-agent: PetalBot
 Disallow: /zh*
@@ -807,7 +807,6 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Slurp
 Disallow: /zh*
@@ -845,7 +844,6 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 User-agent: Yeti
 Disallow: /zh*
@@ -883,11 +881,13 @@ Allow: /resources
 Allow: /load.php
 Allow: /favicon.ico
 Allow: /sitemap
-Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
 
 # DISALLOWED SECTION BELOW
 
 User-agent: MJ12bot
+Disallow: /
+
+User-agent: AmazonBot
 Disallow: /
 
 User-agent: Mediapartners-Google*
@@ -988,3 +988,77 @@ Disallow: /
 
 User-agent: ia_archiver-web.archive.org
 Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGLM
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: GoogleOther-Image
+Disallow: /
+
+User-agent: GoogleOther-Video
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: SkyworkSpider
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+Sitemap: https://youshou.wiki/sitemap/sitemap-index-youshou.wiki.xml
